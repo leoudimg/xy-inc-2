@@ -5,7 +5,7 @@ xy-inc-2
 
 Este aplicativo é uma API REST que funciona como um backend as a service, ou seja, o usuário pode configurar um modelo de dados determinados tipos de atributos e após concluir o cadastro o mesmo pode realizar inclusão de registros através de um serviço REST utilizando os métods GET,POST,PUT,DELETE, o serviço rest tem o mesmo nome do modelo criado.<br>
 Para construir este aplicativo foi utilizado o framework Spring Boot com jetty embarcado. 
-Foi utilizado o Servlet Container Jetty por ser simples e rápido. Apesar de ser um servlet container, foi possível tirar proveito de outras especificações Java utilizando o framework Spring Boot, acoplando alguns adaptadores como web, jpa(Hibernate como provider) dentro outras. O spring também proporciona Injeção de Dependência e Inversão de Controle o que ajuda a aplicar outros padrões de projeto e simplificar a solução.<br>
+Foi utilizado o Servlet Container Jetty por ser simples e rápido. Apesar de ser um servlet container, foi possível tirar proveito de outras especificações Java utilizando o framework Spring Boot, acoplando alguns adaptadores como web, jpa(Hibernate como provider) dentro outras. O spring também proporciona Injeção de Dependência e Inversão de Controle o que ajuda a aplicar outros padrões de projetos,simplificar a solução e possibilitar uma integração rápida e fácil com outros sistemas. Para desenvolvimento das páginas foi utilizado Bootstrap 3.<br>
 Também foi utilizado o plugin jacoco para poder gerar as métricas dos testes unitários e disponibilizar os resultados em uma página html.
 
 ### Instalação 
